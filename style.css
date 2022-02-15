@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-flow: row;
+}
+
+.leftBar{
+width: 200px;
+}
+
+.rightBar{
+display: flex;
+flex-flow: column wrap;
+}
+
+.inputContainer{
+    box-shadow: 0px 5px 5px lightgray;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.formRow{
+    display: flex;
+    flex-flow: row;
+    margin: 4px;
+    padding: 1px;
+    gap: 20px;
+}
+
+.formInput{
+    display: flex;
+    flex-flow: column;
+}
