@@ -1,11 +1,53 @@
+@font-face{
+    font-family: 'Odin';
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    color: inherit;
+}
+
 body{
     display: flex;
     flex-flow: row;
 }
 
+/* left bar */
+
 .leftBar{
-width: 200px;
+    width: 800px;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    font-size: 48px;
+    color: white;
+    
+    display: flex;
+    flex-flow:  column;
+    justify-content: space-between;
 }
+
+.logoBanner{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    background: rgba(0, 0, 0, 0.4);    
+    font-family: Odin;
+    font-size: 1.5em;
+}
+.logoBanner>img{
+    height: 2em;
+}
+
+.logoFooter{
+    font-size: .25em;
+    text-align: center;
+}
+
+/*right bar*/
 
 .rightBar{
 display: flex;
